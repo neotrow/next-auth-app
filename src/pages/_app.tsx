@@ -1,4 +1,4 @@
-import App, { AppContext, type AppType } from "next/app";
+import { type AppType } from "next/app";
 import { type Session } from "next-auth";
 import { SessionProvider, signOut } from "next-auth/react";
 
